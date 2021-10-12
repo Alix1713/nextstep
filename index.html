@@ -5,8 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css" />
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
 
 <body>
     <!-- Navbar (sit on top) -->
@@ -57,13 +59,18 @@
 
             <!-- Hide this text on small devices -->
             <div class="w3-col m6 w3-hide-small w3-padding-large">
-                <p>We just finished with our first month of class. </p>
+                <p>We just finished with our first month of class. These projects are pushing me out of my comfort zone
+                    and helping
+                    me grow. Doing this portfolio and comparing it to the one I made just a few weeks ago is
+                    eye opening on how much progress I'm making. I hope to update this portfolio in a few weeks and
+                    reflect on it in
+                    the same manner. </p>
             </div>
         </div>
         <!-- remove? kinda cutesey-->
         <p class="w3-large w3-center w3-padding-16">In the first month we have covered:</p>
         <p><img src="htmlcssjs-details.png"></p>
-        <p>How I feel my progress has been so far:</p>
+        <p>How I feel my progress in each of these has been so far:</p>
         <p class="w3-wide"><i class="fa fa-star-o"></i>HTML</p>
         <div class="w3-light-grey">
             <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
@@ -81,101 +88,49 @@
     <!-- Second Parallax Image with Portfolio Text -->
     <div class="bgimg-2 w3-display-container w3-opacity-min">
         <div class="w3-display-middle">
-            <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+            <span class="w3-xxlarge w3-text-dk-grey w3-wide">PORTFOLIO</span>
         </div>
     </div>
 
-    <!-- Container (Portfolio Section) -->
-    <div class="w3-content w3-container w3-padding-64" id="portfolio">
-        <h3 class="w3-center">MY WORK</h3>
-        <p class="w3-center"><em>This is a sample of what I've learned in the first four weeks of class.<br>
-                It shows how far I have come in a short time frame</em></p><br>
-        <!--needs container for card?-->
-        <div class="w3-quarter w3-border w3-border-blue">
-            <div class="card" style="width: 18rem;">
-                <img src="three.png" width="200" height="200" class="card-img-top" alt="First Portfolio">
-                <div class="card-body">
-                    <h5 class="card-title">First Portfolio</h5>
-                    <p class="card-text"> </p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">My First Portfolio</li>
-                    <li class="list-group-item">September 2021</li>
-                </ul>
-                <div class="card-body">
-                    <a href="https://github.com/Alix1713/steppingstone" class="card-link">GitHub Repo</a>
-                    <a href="https://alix1713.github.io/steppingstone/" class="card-link">View Site</a>
-                </div>
-            </div>
+    <!-- First Photo Grid-->
+    <div class="w3-row-padding w3-padding-16 w3-center" id="card">
+        <div class="w3-quarter">
+            <img src="three.png" alt="First Portfolio" style="width:100%">
+            <h3>My First Portfolio</h3>
+            <p>September 2021</p>
+            <a href="https://github.com/Alix1713/steppingstone" class="card-link">GitHub Repo</a>
+            <a href="https://alix1713.github.io/steppingstone/" class="card-link">View Site</a>
         </div>
-        <div class="w3-quarter w3-border w3-border-blue">
-            <div class="card" style="width: 18rem;">
-                <img src="two.png" width="200" height="200" class="card-img-top" alt="Day Scheduler">
-                <div class="card-body">
-                    <h5 class="card-title">Intro to Javascript</h5>
-                    <p class="card-text"> </p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Work Day Planner</li>
-                    <li class="list-group-item">October 2021</li>
-                </ul>
-                <div class="card-body">
-                    <a href="https://github.com/Alix1713/planner" class="card-link">GitHub Repo</a>
-                    <a href="https://alix1713.github.io/planner/" class="card-link">View Site</a>
-                </div>
-            </div>
+        <div class="w3-quarter">
+            <img src="two.png" alt="Day Scheduler" style="width:100%">
+            <h3>Intro to Javascript</h3>
+            <p>Day Schedule Project</p>
+            <p>September 2021</p>
+            <a href="https://github.com/Alix1713/planner" class="card-link">GitHub Repo</a>
+            <a href="https://alix1713.github.io/planner/" class="card-link">View Site</a>
         </div>
-        <div class="w3-quarter w3-border w3-border-blue">
-            <div class="card" style="width: 18rem;">
-                <img src="one.png" width="230" height="200" class="card-img-top" alt="Weather API">
-                <div class="card-body">
-                    <h5 class="card-title">First API Call</h5>
-                    <p class="card-text"> </p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Made with OpenWeather</li>
-                    <li class="list-group-item">October 2021</li>
-                </ul>
-                <div class="card-body">
-                    <a href="https://github.com/Alix1713/travelweather" class="card-link">GitHub Repo</a>
-                    <a href="https://alix1713.github.io/travelweather/" class="card-link">View Site</a>
-                </div>
-            </div>
+        <div class="w3-quarter">
+            <img src="one.png" alt="Weather" style="width:100%">
+            <h3>First API Call</h3>
+            <p>OpenWeather API</p>
+            <p>September 2021</p>
+            <a href="https://github.com/Alix1713/travelweather" class="card-link">GitHub Repo</a>
+            <a href="https://alix1713.github.io/travelweather/" class="card-link">View Site</a>
         </div>
-        <div class="w3-quarter w3-border w3-border-blue">
-            <div class="card" style="width: 18rem;">
-                <img src="group.png" width="230" height="200" class="card-img-top" alt="First Group Project">
-                <div class="card-body">
-                    <h5 class="card-title">First Group Project</h5>
-                    <p class="card-text"> </p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Made with Daniel Vo</li>
-                    <li class="list-group-item">and Derek Banister</li>
-                </ul>
-                <div class="card-body">
-                    <a href="https://github.com/Alix1713/tvremote" class="card-link">GitHub Repo</a>
-                    <a href="https://alix1713.github.io/tvremote/" class="card-link">View Site</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    </div>
-    <!-- Modal for full size images on click-->
-    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-        <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i
-                class="fa fa-remove"></i></span>
-        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-            <img id="img01" class="w3-image">
-            <p id="caption" class="w3-opacity w3-large"></p>
+        <div class="w3-quarter">
+            <img src="group.png" alt="First Project" style="width:100%">
+            <h3>First Group Project</h3>
+            <p>Made with Daniel Vo</p>
+            <p>and Derek Banister</p>
+            <a href="https://github.com/Alix1713/tvremote" class="card-link">GitHub Repo</a>
+            <a href="https://alix1713.github.io/tvremote/" class="card-link">View Site</a>
         </div>
     </div>
 
     <!-- Third Parallax Image with Portfolio Text -->
     <div class="bgimg-3 w3-display-container w3-opacity-min">
         <div class="w3-display-middle">
-            <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+            <span class="w3-xxlarge w3-text-dk-grey w3-wide">CONTACT</span>
         </div>
     </div>
 
@@ -192,19 +147,23 @@
                 <div class="w3-large w3-margin-bottom">
                     <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone:
                     (925)997-8067<br>
-                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email:
+                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>
+                    Email:
                     Wildflowerinabox@gmail.com<br>
                     <i class="fa fa-desktop fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i><a
                         href="https://github.com/Alix1713">My GitHub</a><br>
                     <i class="fa fa-users fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i><a
                         href="https://www.linkedin.com/in/alix1713/">My Linked In</a><br>
+                    <i class="fa fa-book fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i><a
+                        href="Alix_Friedman_Resume.PDF">My Resume</a><br>
                 </div>
             </div>
         </div>
     </div>
 
     <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off" id=footer>
-        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the
+            top</a>
         <!--not working-->
         <div class="w3-xlarge w3-section">
         </div>

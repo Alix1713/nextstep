@@ -1,7 +1,10 @@
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body,h1,h2,h3,h4,h5,h6 {
+  font-family: 'Comfortaa', cursive;
+color:black;
+}
 body, html {
   height: 100%;
-  color: #777;
+  color: black;
   line-height: 1.8;
     /* The image used */
     background-image: url("watercolor3.jpg");
@@ -41,10 +44,19 @@ body, html {
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
+.card{
+  padding: 10px;
+  border:cornflowerblue;
+  border-width: 5px;
+  border-radius: 5px;
+  box-shadow: darkgrey;
+
+}
+
 #contact{
-  background-image: url("banner.png");
+  background-image: url("back.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
 }
 #footer{
   background-image: url("footer.png");
